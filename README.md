@@ -60,11 +60,11 @@ toward less sleep. However, I also drank more caffeine during exams, so caffeine
 
 - **Correlation, not causation:** None of these results show that one thing causes another.
     
-  ## ⌛ Things I plan to do
-  - Add bedtime tracking
-  - Add an alarm column
-  - Re-run at 60+ days
-  - Expand dataset
+## ⌛ Things I plan to do
+- Add bedtime tracking
+- Add an alarm column
+- Re-run at 60+ days
+- Expand dataset
  
 ## 🛠️ Tools I used
 - Python
