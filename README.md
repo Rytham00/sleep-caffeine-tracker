@@ -1,32 +1,31 @@
 # sleep-caffeine-tracker 🌙☕📊
-Turning daily habits into data stories ✨
+A beginner project exploring my own sleep and caffeine data ✨
 
 ## 📋 Overview
 Does caffeine really mess with sleep?  
 This project explores daily habits and their impact on sleep patterns using structured CSV logs.
 
 ## 📝 Introduction
-This project began as an attempt to see whether caffeine alone explained changes in my sleep. Using CSV logs from my habit tracker, I quickly realized caffeine wasn’t the full story. Over time, I expanded the dataset to include wake‑up time and other daily routines to capture a more complete picture of what influences sleep. This repository contains the raw data, analysis scripts, and my findings. It is a personal experiment in turning everyday habits into structured insights.
+This project began as an attempt to see whether caffeine alone explained changes in my sleep. Using CSV logs from my habit tracker, I quickly realized caffeine wasn’t the full story. Over time, I expanded the dataset to include wake‑up time to capture a more complete picture of what influences sleep. This repository contains the raw data,an analytics notebook, and my findings. It is a personal experiment in turning everyday habits into structured insights.
 
 ## 📁 Dataset
-- Duration: ~6 weeks of daily logs 📅
-- Format: CSV files 📄
+- Duration: ~6 weeks (36 usable days) of daily logs 
+- Format: CSV files 
 - Variables tracked:
-  - ☕ Caffeine intake
-  - 💤 Sleep hours
-  - ⏰ Wake-up time
-  - ✅ Exam season 
-  - 🌙 Bedtime (planned for future weeks)
+  -  Caffeine intake
+  -  Sleep hours
+  -  Wake-up time
+  -  Exam season 
 
 ## ⚒️ Methodology
-- Logged daily habits into a notebook 📓
+- Logged daily habits into a notebook 
 - Converted notes into structured CSV format
-- Analyzed data using Pandas in Google Colab 🐍💻
+- Analyzed data using Pandas in Google Colab 
 - Explored correlations with simple statistics and visualizations
 
 ## ⚠️ Notes
 - Sleep was self reported as approximate ranges and converted to midpoints.
-- Variables like 'sleep_time' were read off a hand drawn graph and are accurate to roughly 30 minutes.
+- Variables like 'sleep_hours' were read off a hand drawn graph and are accurate to roughly 30 minutes.
 - Caffeine amounts were estimated based on typical values per serving.
 - Naps were not included, only nighttime sleep.
 - Some nights also include long sleep-ins.
@@ -39,7 +38,7 @@ toward less sleep. However, I also drank more caffeine during exams, so caffeine
   
 - **Prediction model:** A simple linear regression using caffeine and exam season did slightly worse than just guessing my average sleep. With this amount of data, caffeine and exam season do not predict my sleep.
   
-- **Wake time & bedtime:** Bedtime and wake-up time seem to matter more than caffeine, but I only have about 11 nights of data.
+- **Wake-up time:** Wake-up time seemed to relate to sleep more than caffeine did, but I only have about 11 nights of data.
 
 ## ⭕ Limitations
 - **Small sample:** About 36 usable days, and only 13 of them were exam days. Wake time covers only about 11 nights. A bigger sample size is needed to get proper insights from the data.
