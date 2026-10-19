@@ -9,13 +9,16 @@ This project explores daily habits and their impact on sleep patterns using stru
 This project began as an attempt to see whether caffeine alone explained changes in my sleep. Using CSV logs from my habit tracker, I quickly realized caffeine wasn’t the full story. Over time, I expanded the dataset to include wake‑up time to capture a more complete picture of what influences sleep. This repository contains the raw data,an analytics notebook, and my findings. It is a personal experiment in turning everyday habits into structured insights.
 
 ## 📁 Dataset
-- Duration: ~6 weeks (36 usable days) of daily logs 
+- Duration: ~7 weeks (42 usable days) of daily logs 
 - Format: CSV files 
 - Variables tracked:
   -  Caffeine intake
   -  Sleep hours
   -  Wake-up time
-  -  Exam season 
+  -  Exam season
+  -  Wake-up time
+  -  Bedtime
+  -  Alarm
 
 ## ⚒️ Methodology
 - Logged daily habits into a notebook 
@@ -29,6 +32,7 @@ This project began as an attempt to see whether caffeine alone explained changes
 - Caffeine amounts were estimated based on typical values per serving.
 - Naps were not included, only nighttime sleep.
 - Some nights also include long sleep-ins.
+- For 5 nights with a recorded bedtime, it matched the bedtime derived from sleep and wake time to within about 15 minutes which supports the wake-time alignment
 
 ## 📊 What I Found
 - **Caffeine & sleep:** Caffeine had a weak negative relationship with sleep i.e. higher caffeine days leaned slightly
@@ -58,10 +62,10 @@ toward less sleep. However, I also drank more caffeine during exams, so caffeine
 - **Long sleep-ins:**  Several 12 to 14 hour nights in October are included as real data and affect the averages. I do not know what caused them.
 
 - **Correlation, not causation:** None of these results show that one thing causes another.
+
+- - **Bedtime data:** Has only been recorded for about a week, therefore doesn't support any conclusions.
     
 ## ⌛ Things I plan to do
-- Add bedtime tracking
-- Add an alarm column
 - Re-run at 60+ days
 - Expand dataset
  
