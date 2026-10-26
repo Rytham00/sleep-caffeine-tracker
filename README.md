@@ -19,6 +19,8 @@ This project began as an attempt to see whether caffeine alone explained changes
   -  Wake-up time
   -  Bedtime
   -  Alarm
+  - Naps
+  - Other Caffeine sources, besides tea and coffee
 
 ## ⚒️ Methodology
 - Logged daily habits into a notebook 
@@ -30,9 +32,10 @@ This project began as an attempt to see whether caffeine alone explained changes
 - Sleep was self reported as approximate ranges and converted to midpoints.
 - Variables like 'sleep_hours' were read off a hand drawn graph and are accurate to roughly 30 minutes.
 - Caffeine amounts were estimated based on typical values per serving.
-- Naps were not included, only nighttime sleep.
+- Originally, naps were not included. Only recently, they were counted as well.
 - Some nights also include long sleep-ins.
 - For 5 nights with a recorded bedtime, it matched the bedtime derived from sleep and wake time to within about 15 minutes which supports the wake-time alignment
+- Earlier, only tea and coffee were included as caffeine sources. Now, a new column ('caffeine_other_mg') has been added to include other caffeine surces like cola, energy drinks, etc. 
 
 ## 📊 What I Found
 - **Caffeine & sleep:** Caffeine had a weak negative relationship with sleep i.e. higher caffeine days leaned slightly
@@ -57,13 +60,11 @@ toward less sleep. However, I also drank more caffeine during exams, so caffeine
   
 - **Missing days:** A few days were not tracked and were left out.
   
-- **Naps not recorded:** Sleep time includes only night sleep.
+- **Naps not recorded earlier:** Sleep time includes only night sleep. Nap-time has been included for some days only.
   
 - **Long sleep-ins:**  Several 12 to 14 hour nights in October are included as real data and affect the averages. I do not know what caused them.
 
 - **Correlation, not causation:** None of these results show that one thing causes another.
-
-- - **Bedtime data:** Has only been recorded for about a week, therefore doesn't support any conclusions.
     
 ## ⌛ Things I plan to do
 - Re-run at 60+ days
